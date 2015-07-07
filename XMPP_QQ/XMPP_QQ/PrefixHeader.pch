@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  XMPP_QQ
+//
+//  Created by apple on 15/7/7.
+//  Copyright (c) 2015年 tqh. All rights reserved.
+//
+
+#ifndef XMPP_QQ_PrefixHeader_pch
+#define XMPP_QQ_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "WJCommon.h"
+
+
+//一些宏定义
+#define screenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define screenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+
+#define LOGIN_STATUS @"login_staus"
+
+#endif
